@@ -44,8 +44,35 @@ h1{
     background-position: right;
 }
 
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left:4%;
+    margin-right:4%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
 
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 10px;
+}
 
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
 
-
-
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
